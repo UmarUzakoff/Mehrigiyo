@@ -1,0 +1,73 @@
+.Bubble {
+  background-repeat: no-repeat;
+  background-size: 77%;
+  padding-bottom: 100px;
+}
+
+.form-1 {
+  margin: 50px 0px;
+}
+.form-1 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 29px;
+  color: #c3c3c3;
+}
+.form-1 input {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  color: #181725;
+  width: 100%;
+  background-color: transparent;
+  border: 0px solid rgba(176, 183, 195, 0.5);
+}
+.form-1 input:focus {
+  outline: none;
+}
+.form-1 button {
+  width: 100%;
+  background-color: #53b175;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff9ff;
+  border: none;
+  border-radius: 50px;
+  margin-top: 24px;
+}
+
+.form-1__labels {
+  border-bottom: 1px solid rgba(176, 183, 195, 0.5);
+  padding-bottom: 10px;
+  margin-bottom: 24px;
+}
+.form-1__labels input::placeholder {
+  color: #282828;
+}
+.form-1 span {
+  color: #53b175;
+}
+.form-1__confirm {
+  margin-top: 30px;
+}
+.form-1__confirm p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.authText {
+  color: #53b175 !important;
+}
+
+.Form__h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 125%;
+  color: #000000;
+  padding-bottom: 70px;
+}
