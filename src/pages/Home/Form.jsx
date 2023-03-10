@@ -14,7 +14,7 @@ const Form = () => {
       className="flex flex-row justify-center items-center mt-32 Bubble"
       style={{ backgroundImage: `url(${Bubble})` }}>
       <div className="mr-40">
-        <img src={form} alt="img" loading="lazy" decoding="async" />
+        <img src={form} alt="img"/>
       </div>
       <form action="https://echo.htmlacademy.ru" className="form-1 mr-40">
         <span className="text-auth">Biz bilan bog'lanish</span>

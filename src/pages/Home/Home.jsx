@@ -60,7 +60,7 @@ const Home = () => {
         <div className="flex justify-center items-center mt-20">
           <div className="cart cart__left">
             <span className="cart__span">
-              <img loading="lazy" decoding="async" src={avatar1} alt="avatar" />
+              <img src={avatar1} alt="avatar" />
               Consultant
             </span>
             <p className="cart__p">
@@ -69,8 +69,6 @@ const Home = () => {
             </p>
           </div>
           <img
-            loading="lazy"
-            decoding="async"
             className="mt-10"
             src={Doc}
             alt="img"

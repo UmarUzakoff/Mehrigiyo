@@ -23,6 +23,8 @@ import ROHATYogi from "../../images/ROHATYogi.svg";
 import Sirop from "../../images/Sirop.svg";
 import Banana from "../../images/Banana.svg";
 import RohatYogi2 from "../../images/RohatYogi2.svg";
+
+
 SwiperCore.use([Scrollbar]);
 
 const data = [

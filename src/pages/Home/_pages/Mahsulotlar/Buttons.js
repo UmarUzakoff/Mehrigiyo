@@ -144,9 +144,8 @@ const Buttons = () => {
           <span className="text-auth ml-2 cursor-pointer">&#11167;Ko'proq</span>
           <label
             for="checked-checkbox"
-            class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300 relative">
-            <Koproq />
-          </label>
+            class="text-sm font-medium text-gray-900 dark:text-gray-300 relative"></label>
+          <Koproq />
         </div>
       </div>
     </>
