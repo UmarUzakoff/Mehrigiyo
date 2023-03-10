@@ -1,5 +1,4 @@
 import React from "react";
-import leaves2 from '../../pages/Home/images/leaves2.svg'
 
 export const Modal2 = ({ visible, setVisible, children }) => {
   if (visible) {
@@ -14,7 +13,7 @@ export const Modal2 = ({ visible, setVisible, children }) => {
             onClick={() => setVisible(false)}>
             X
           </button>
-          <div style={{ backgroundImage: `url(${leaves2})` }}> {children}</div>
+          <div> {children}</div>
         </div>
       </>
     );

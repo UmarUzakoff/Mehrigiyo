@@ -10,7 +10,6 @@ import RohatYogi2 from "./Home/images/RohatYogi2.svg";
 import plus from "./Home/images/plus.svg";
 import vector from "./Home/images/Vector.svg";
 import stars from "./Home/images/stars.svg";
-import leaves2 from "./Home/images/leaves2.svg";
 import confetti from "https://cdn.skypack.dev/canvas-confetti@1";
 import { Link } from "react-router-dom";
 import { Modal2 } from "../components/Modal/Modal2";
@@ -137,7 +136,7 @@ function MahsulotlarRoyxati() {
 
   return (
     <div className="container px-10">
-      <div style={{ backgroundImage: `url(${leaves2})` }}></div>
+      <div></div>
       <h1 className="w-10">Mahsulotlarimiz ro'yxati</h1>
       <Swiper
         scrollbar={{

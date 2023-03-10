@@ -1,7 +1,7 @@
 import React, { useState, useContext, memo } from "react";
 import { LocalizationApi } from "../../context/localizationContext";
 import uniqueBg from "./images/uniqueBg.png";
-import Doc from "./images/Doc.svg";
+import Doc from "./images/Doc.png";
 import avatar1 from "./images/avatar1.svg";
 import cloak from "./images/hours.svg";
 import MahsulotlarRoyxati from "../MahsulotlarRo'yxati";
