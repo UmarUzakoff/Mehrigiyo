@@ -1,13 +1,11 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import form from "./images/form.png";
 import "react-phone-number-input/style.css";
-import flags from "react-phone-number-input/flags";
-import en from "react-phone-number-input/locale/en.json";
 import PhoneInput from "react-phone-number-input";
 import send from "../Home/images/send.svg";
 import Bubble from "../Home/images/Bubble2.png";
 import "./Form.css";
-import { Link } from "react-router-dom";
 
 const Form = () => {
   const [value, setValue] = useState();

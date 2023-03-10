@@ -1,4 +1,4 @@
-import React, { useState, useContext, memo } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { LocalizationApi } from "../../context/localizationContext";
 import LikeBg from "./images/LikeBg.png";

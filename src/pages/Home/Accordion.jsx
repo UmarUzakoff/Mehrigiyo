@@ -41,7 +41,7 @@ export default function Akordion() {
         <Accordion open={open === 1} animate={customAnimation}>
           <AccordionHeader
             onClick={() => handleOpen(1)}
-            className="flex flex-row gap-28 pr-20">
+            className="flex flex-row gap-28 pr-20 pb-7">
             <h5 className="accordion__h5">
               <span className="accordion__num">01</span>Какой состав сока
               Alatoo?<strong className=" hidden">dsbkjbjsja</strong>
@@ -56,7 +56,7 @@ export default function Akordion() {
         <Accordion open={open === 2} animate={customAnimation}>
           <AccordionHeader
             onClick={() => handleOpen(2)}
-            className="flex flex-row pr-20">
+            className="flex flex-row pr-20 pb-7">
             <h5 className="accordion__h5">
               <span className="accordion__num">02</span>Сколько стоит Алатоо и
               сколько стоит доставка?
@@ -72,7 +72,7 @@ export default function Akordion() {
         <Accordion open={open === 3} animate={customAnimation}>
           <AccordionHeader
             onClick={() => handleOpen(3)}
-            className="flex flex-row gap-24 pr-20">
+            className="flex flex-row gap-24 pr-20 pb-7">
             <h5 className="accordion__h5">
               <span className="accordion__num">03</span>Здравствуйте, аллергия
               часто на этот сок?
@@ -89,7 +89,7 @@ export default function Akordion() {
         <Accordion open={open === 4} animate={customAnimation}>
           <AccordionHeader
             onClick={() => handleOpen(4)}
-            className="flex flex-row pr-20">
+            className="flex flex-row pr-20 pb-7">
             <h5 className="accordion__h5">
               <span className="accordion__num">04</span>Эффективен ли сок Алатоо
               при герпесе?
@@ -104,7 +104,7 @@ export default function Akordion() {
         <Accordion open={open === 5} animate={customAnimation}>
           <AccordionHeader
             onClick={() => handleOpen(5)}
-            className="flex flex-row pr-20">
+            className="flex flex-row pr-20 pb-7">
             <h5 className="accordion__h5">
               <span className="accordion__num">05</span>Mожно принимать при
               полипе в жёлчном пузыре?

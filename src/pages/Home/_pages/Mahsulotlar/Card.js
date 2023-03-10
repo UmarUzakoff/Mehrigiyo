@@ -291,11 +291,12 @@ const Card = ({ item }) => {
                             open={open === 1}
                             animate={customAnimation}>
                             <AccordionHeader
-                              className="pr-20"
+                              className="pr-20 pb-7"
                               onClick={() => handleOpen(1)}>
-                              <h5 className="accordion__h52 flex justify-around">
+                              <h5 className="accordion__h52 flex justify-around text-center items-center">
                                 Mahsulot haqida
                               </h5>
+                              <span className="ml-96">+</span>
                             </AccordionHeader>
                             <AccordionBody>{Val.description}</AccordionBody>
                           </Accordion>
@@ -439,11 +440,12 @@ const Card = ({ item }) => {
                             open={open === 1}
                             animate={customAnimation}>
                             <AccordionHeader
-                              className="pr-20"
+                              className="pr-20 pb-7"
                               onClick={() => handleOpen(1)}>
-                              <h5 className="accordion__h52 flex justify-around">
+                              <h5 className="accordion__h52 flex justify-around text-center items-center">
                                 Mahsulot haqida
                               </h5>
+                              <span className="ml-96">+</span>
                             </AccordionHeader>
                             <AccordionBody>{Val.description}</AccordionBody>
                           </Accordion>

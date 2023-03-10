@@ -1,4 +1,4 @@
-import React, { useState, useContext, memo } from "react";
+import React, { useContext, memo } from "react";
 import { LocalizationApi } from "../../context/localizationContext";
 import uniqueBg from "./images/uniqueBg.png";
 import Doc from "./images/Doc.png";

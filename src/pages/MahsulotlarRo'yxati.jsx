@@ -270,11 +270,12 @@ function MahsulotlarRoyxati() {
                         <hr className="mt-5" />
                         <Accordion open={open === 1} animate={customAnimation}>
                           <AccordionHeader
-                            className="pr-20"
+                            className="pr-20 pb-7"
                             onClick={() => handleOpen(1)}>
-                            <h5 className="accordion__h52 flex justify-around">
+                            <h5 className="accordion__h52 flex justify-around text-center items-center">
                               Mahsulot haqida
                             </h5>
+                            <span className="ml-96">+</span>
                           </AccordionHeader>
                           <AccordionBody>{item.description}</AccordionBody>
                         </Accordion>
@@ -420,11 +421,12 @@ function MahsulotlarRoyxati() {
                         <hr className="mt-5" />
                         <Accordion open={open === 1} animate={customAnimation}>
                           <AccordionHeader
-                            className="pr-20"
+                            className="pr-20 pb-7"
                             onClick={() => handleOpen(1)}>
                             <h5 className="accordion__h52 flex justify-around">
                               Mahsulot haqida
                             </h5>
+                            <span className="ml-96">+</span>
                           </AccordionHeader>
                           <AccordionBody>{item.description}</AccordionBody>
                         </Accordion>
@@ -570,11 +572,12 @@ function MahsulotlarRoyxati() {
                         <hr className="mt-5" />
                         <Accordion open={open === 1} animate={customAnimation}>
                           <AccordionHeader
-                            className="pr-20"
+                            className="pr-20 pb-7"
                             onClick={() => handleOpen(1)}>
                             <h5 className="accordion__h52 flex justify-around">
                               Mahsulot haqida
                             </h5>
+                            <span className="ml-96">+</span>
                           </AccordionHeader>
                           <AccordionBody>{item.description}</AccordionBody>
                         </Accordion>
@@ -720,11 +723,12 @@ function MahsulotlarRoyxati() {
                         <hr className="mt-5" />
                         <Accordion open={open === 1} animate={customAnimation}>
                           <AccordionHeader
-                            className="pr-20"
+                            className="pr-20 pb-7"
                             onClick={() => handleOpen(1)}>
                             <h5 className="accordion__h52 flex justify-around">
                               Mahsulot haqida
                             </h5>
+                            <span className="ml-96">+</span>
                           </AccordionHeader>
                           <AccordionBody>{item.description}</AccordionBody>
                         </Accordion>
